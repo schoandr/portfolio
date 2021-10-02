@@ -1,8 +1,8 @@
 /* color and style the links in the contact info */
-a:link {color: dimgray}
-a:visited {color:rgb(64, 199, 93)}
-a:hover {color: darkolivegreen}
-a:active {color: darkgreen}
+a:link {color: black}
+a:visited {color:royalblue}
+a:hover {color: blue}
+a:active {color: rgb(0, 102, 255)}
 
 /* color, center, add background & padding to header and footer */
 body header, footer {
