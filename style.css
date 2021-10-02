@@ -1,0 +1,80 @@
+/* color and style the links in the contact info */
+a:link {color: black}
+a:visited {color:royalblue}
+a:hover {color: blue}
+a:active {color: rgb(0, 102, 255)}
+
+/* color, center, add background & padding to header and footer */
+body header, footer {
+  background-color: darkgrey;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+/* provide a color to the body's background */
+body {
+  background-color: #e4e8eb;
+}
+
+/* adding space above the main img */
+main img {
+  margin: 50px 0 0 0;
+}
+
+/* centering all of the containers and main content */
+main {
+  width: 70%;
+  margin: auto;
+}
+
+/* changing the font and color of the text in the main */
+p, ul, ol, li, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #313E14;
+}
+
+/* changing the text size of almost everything except headers */
+p, ul, ol, li {
+  font-size: 12pt;
+}
+
+/* aligning the headers and footers text */
+h1, h2, h3, footer {
+  text-align: center;
+}
+
+/* adding space above the footer */
+footer {
+  margin: 60px 0 0 0;
+}
+
+/* centering the main image */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+}
+
+/* adding space around the horizontal rulers */
+hr {
+  margin: 50px 0;
+}
+
+/* increasing size of h1 */
+h1 {
+  font-size: 30pt;
+}
+
+/* used to round the main img */
+.rounded {
+  border-radius: 5%;
+}
+
+/* used to make font fancy */
+.fantasy {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
