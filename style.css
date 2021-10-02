@@ -6,8 +6,8 @@ a:active {color: darkgreen}
 
 /* color, center, add background & padding to header and footer */
 body header, footer {
-  background-color: #386641;
-  color: lightgray;
+  background-color: darkgrey;
+  color: black;
   text-align: center;
   margin: 0;
   padding: 5px;
@@ -15,7 +15,7 @@ body header, footer {
 
 /* provide a color to the body's background */
 body {
-  background-color: #E9F1E4;
+  background-color: #e4e8eb;
 }
 
 /* adding space above the main img */
@@ -55,6 +55,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 50%;
   width: 50%;
 }
 
